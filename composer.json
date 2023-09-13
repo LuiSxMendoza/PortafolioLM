@@ -1,0 +1,13 @@
+{
+    "name": "juan-luis/portafolio",
+    "description": "Proyecto UpTask MVC, PHP 8, SASS",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Classes\\" : "./classes"
+        } 
+    },
+    "require": {
+        "sendgrid/sendgrid": "~7"
+    }
+}
