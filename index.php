@@ -7,7 +7,6 @@
     $hoy = new DateTime();
     $edad = $hoy->diff($fecha_nacimiento);
 
-    
     include_once __DIR__ . '/templates/header.php';
     
 ?>
@@ -50,13 +49,22 @@
 
             <div class="sobre hidden">
                 <p class="sobre__texto">
-                    Tengo <?php echo $edad->y; ?> años, soy mexicano y desde chico me ha llamado la atención la 
-                    tecnología, soy autodidacta, decidí estudiar programación 
-                    enfocada al desarrollo web por mi cuenta, gracias a mi esfuerzo 
-                    y perseverancia hoy puedo decir que soy Desarrollador, 
-                    no tengo preferencia por Front o Backend, ambos me gustan y 
-                    me pienso dedicar al desarrollo Full Stack, actualmente estoy 
-                    en busca de una oportunidad laboral para adquirir experiencia profesional.
+                    <p>
+                        Tengo <?php echo $edad->y; ?> años, soy Mexicano, desde chico me ha llamado la atención la 
+                        tecnología, soy autodidacta y decidí estudiar programación 
+                        enfocada al desarrollo web por mi cuenta; Gracias a mi esfuerzo 
+                        y perseverancia hoy puedo decir que soy Desarrollador. 
+                        Me gusta trabajar en áreas donde se llevan a cabo tareas 
+                        Full Stack, Actualmente estoy en busca de una oportunidad 
+                        laboral para adquirir experiencia profesional.
+                    </p>
+
+                    <p>
+                        También me dedico a realizar páginas y aplicaciones web para 
+                        cualquier giro, 100% Responsivas, con buen Posicionamiento SEO y 
+                        siguiendo las Mejores prácticas, Así que si requieres un trabajo 
+                        Original y Optimizado soy tu mejor opción. <span>¡Cotiza YA!</span>
+                    </p>
                 </p>
             </div>
             
@@ -287,7 +295,7 @@
             </div>
         </div>
 
-        <h2 class="habilidades__titulo hidden">Mis Principales Habilidades</h2>
+        <h2 class="habilidades__titulo hidden">¡Mis Principales Habilidades!</h2>
 
         <ul class="habilidades__lista">
             <li class="lista hidden">
@@ -370,7 +378,7 @@
             </div>
         </div>
 
-        <h2 class="proyectos__titulo hidden">Algunós de Mis Proyectos</h2>
+        <h2 class="proyectos__titulo hidden">¡Algunós de Mis Proyectos!</h2>
 
         <div class="proyectos__galeria">
             <div class="proyectos__grid ">
