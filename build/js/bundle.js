@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	openFullImg();
 
 	closeImg();
+
+	flashTitleNot();
 	
 });
 
@@ -29,13 +31,13 @@ function particulasJs() {
 			}
 		  },
 		  "color": {
-			"value": "#394659"
+			"value": "#13070c"
 		  },
 		  "shape": {
 			"type": "circle",
 			"stroke": {
 			  "width": 0,
-			  "color": "#000000"
+			  "color": "#00000"
 			},
 			"polygon": {
 			  "nb_sides": 5
@@ -61,7 +63,7 @@ function particulasJs() {
 			"random": true,
 			"anim": {
 			  "enable": false,
-			  "speed": 30,
+			  "speed": 20,
 			  "size_min": 0.1,
 			  "sync": false
 			}
@@ -69,7 +71,7 @@ function particulasJs() {
 		  "line_linked": {
 			"enable": true,
 			"distance": 160,
-			"color": "#4cb8b3",
+			"color": "#96A4D3",
 			"opacity": 0.6,
 			"width": 1.5
 		  },
@@ -233,12 +235,13 @@ const typed = new Typed('.typed', {
         "I'm Web Developer!"
     ], 
     loop: true, 
-    typeSpeed: 75,
-    backDelay: 1500,
+    typeSpeed: 85,
+    backDelay: 1700,
     loopCount: Infinity,
-    backSpeed: 80,
+    backSpeed: 85,
     fadeOutDelay: 500
 });
+
 
 //! Validar Form
 
@@ -255,7 +258,6 @@ function validarInputs() {
 			icon: 'error',
 			title: 'Oops...',
 			text: 'El nombre es obligatorio!',
-			footer: '<a href="">Why do I have this issue?</a>'
 		});
 		return false
 	}
@@ -264,7 +266,6 @@ function validarInputs() {
 			icon: 'error',
 			title: 'Oops...',
 			text: 'El nombre es incorrecto!',
-			footer: '<a href="">Why do I have this issue?</a>'
 		});
 		return false
 	}
@@ -273,7 +274,6 @@ function validarInputs() {
 			icon: 'error',
 			title: 'Oops...',
 			text: 'El correo es obligatorio!',
-			footer: '<a href="">Why do I have this issue?</a>'
 		});
 		return false
 	}
@@ -282,7 +282,6 @@ function validarInputs() {
 			icon: 'error',
 			title: 'Oops...',
 			text: 'El correo es incorrecto!',
-			footer: '<a href="">Why do I have this issue?</a>'
 		});
 		return false
 	}
@@ -291,7 +290,6 @@ function validarInputs() {
 			icon: 'error',
 			title: 'Oops...',
 			text: 'El mensaje es necesario!',
-			footer: '<a href="">Why do I have this issue?</a>'
 		});
 		return false
 	}
@@ -313,10 +311,11 @@ form.addEventListener("click", (e) =>{
 	
 });
 
+
 //! Scroll Advanced
 const observer = new IntersectionObserver((entries) => {
 	entries.forEach((entry) => {
-		console.log(entry)
+		//console.log(entry)
 		if(entry.isIntersecting) {
 			entry.target.classList.add('show');
 		} else {
@@ -328,6 +327,7 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
+
 //? Titulo barra dimamico
 
 function flashTitleNot() {
@@ -335,9 +335,9 @@ function flashTitleNot() {
     var isFlash = false;
     function changeTitle() {
         document.title = isFlash ?
-        "(1) ¡Bienvenido! A Mi Sitio Web" : origTitle;
+        "(1) ¡Bienvenido A Mi Sitio Web!" : origTitle;
         isFlash = !isFlash;
     }
     setInterval(changeTitle, 2500);
 }
-window.onload = flashTitleNot;
+//window.onload = flashTitleNot;

@@ -48,24 +48,22 @@
             </div>
 
             <div class="sobre hidden">
-                <p class="sobre__texto">
-                    <p>
-                        Tengo <?php echo $edad->y; ?> años, soy Mexicano, desde chico me ha llamado la atención la 
-                        tecnología, soy autodidacta y decidí estudiar programación 
-                        enfocada al desarrollo web por mi cuenta; Gracias a mi esfuerzo 
+                    <p class="sobre__texto">
+                        Tengo <?php echo $edad->y; ?> años, soy Mexicano y desde chico me ha llamado la atención la 
+                        tecnología. Soy autodidacta, decidí estudiar programación 
+                        enfocada al desarrollo web por mi cuenta, gracias a mi esfuerzo 
                         y perseverancia hoy puedo decir que soy Desarrollador. 
                         Me gusta trabajar en áreas donde se llevan a cabo tareas 
-                        Full Stack, Actualmente estoy en busca de una oportunidad 
+                        Full Stack y Actualmente estoy en busca de una oportunidad 
                         laboral para adquirir experiencia profesional.
                     </p>
 
-                    <p>
-                        También me dedico a realizar páginas y aplicaciones web para 
+                    <p class="sobre__texto">
+                        De igual manera me dedico a realizar páginas y aplicaciones web para 
                         cualquier giro, 100% Responsivas, con buen Posicionamiento SEO y 
-                        siguiendo las Mejores prácticas, Así que si requieres un trabajo 
-                        Original y Optimizado soy tu mejor opción. <span>¡Cotiza YA!</span>
+                        siguiendo las Mejores prácticas. Así que si requieres un trabajo 
+                        Original y Optimizado soy tu mejor opción! <span>¡Cotiza YA!</span>
                     </p>
-                </p>
             </div>
             
         </div>
@@ -79,7 +77,7 @@
 
 
 <div class="img-full2" id="fullImgBox2">
-    <img src="build/img/Historial academico.jpg" alt="imagen certificado full" id="fullImg2">
+    <img src="build/img/HistorialAcademico.jpg" alt="imagen certificado full" id="fullImg2">
     <span onclick="closeImg2()">X</span>
 </div>
 
@@ -111,8 +109,8 @@
             <div class="slide-track">
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Certificado Css Guia Completa.webp" type="image/webp">
-                        <img src="build/img/Certificado Css Guia Completa.jpg" 
+                        <source srcset="build/img/CertificadoCssGuiaCompleta.webp" type="image/webp">
+                        <img src="build/img/CertificadoCssGuiaCompleta.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -121,8 +119,8 @@
                 </div>
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Certificado google 1.webp" type="image/webp">
-                        <img src="build/img/Certificado google 1.jpg" 
+                        <source srcset="build/img/CertificadoGoogle1.webp" type="image/webp">
+                        <img src="build/img/CertificadoGoogle1.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -131,8 +129,8 @@
                 </div>
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Certificado desarrollo web completo.webp" type="image/webp">
-                        <img src="build/img/Certificado desarrollo web completo.jpg" 
+                        <source srcset="build/img/CertificadoDesarrolloWebCompleto.webp" type="image/webp">
+                        <img src="build/img/CertificadoDesarrolloWebCompleto.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -141,8 +139,8 @@
                 </div>
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Certificado google 2.webp" type="image/webp">
-                        <img src="build/img/Certificado google 2.jpg" 
+                        <source srcset="build/img/CertificadoGoogle2.webp" type="image/webp">
+                        <img src="build/img/CertificadoGoogle2.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -151,8 +149,8 @@
                 </div>
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Certificado github.webp" type="image/webp">
-                        <img src="build/img/Certificado github.jpg" 
+                        <source srcset="build/img/CertificadoGithub.webp" type="image/webp">
+                        <img src="build/img/CertificadoGithub.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -161,8 +159,8 @@
                 </div>
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Certificado tiendas virtuales.webp" type="image/webp">
-                        <img src="build/img/Certificado tiendas virtuales.jpg" 
+                        <source srcset="build/img/CertificadoTiendasVirtuales.webp" type="image/webp">
+                        <img src="build/img/CertificadoTiendasVirtuales.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -171,8 +169,8 @@
                 </div>
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Historial academico.webp" type="image/webp">
-                        <img src="build/img/Historial academico.jpg" 
+                        <source srcset="build/img/HistorialAcademico.webp" type="image/webp">
+                        <img src="build/img/HistorialAcademico.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -181,8 +179,8 @@
                 </div>
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Certificado plugins wp.webp" type="image/webp">
-                        <img src="build/img/Certificado plugins wp.jpg" 
+                        <source srcset="build/img/CertificadoPluginsWp.webp" type="image/webp">
+                        <img src="build/img/CertificadoPluginsWp.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -195,8 +193,8 @@
 
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Certificado Css Guia Completa.webp" type="image/webp">
-                        <img src="build/img/Certificado Css Guia Completa.jpg" 
+                        <source srcset="build/img/CertificadoCssGuiaCompleta.webp" type="image/webp">
+                        <img src="build/img/CertificadoCssGuiaCompleta.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -205,8 +203,8 @@
                 </div>
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Certificado google 1.webp" type="image/webp">
-                        <img src="build/img/Certificado google 1.jpg" 
+                        <source srcset="build/img/CertificadoGoogle1.webp" type="image/webp">
+                        <img src="build/img/CertificadoGoogle1.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -215,8 +213,8 @@
                 </div>
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Certificado desarrollo web completo.webp" type="image/webp">
-                        <img src="build/img/Certificado desarrollo web completo.jpg" 
+                        <source srcset="build/img/CertificadoDesarrolloWebCompleto.webp" type="image/webp">
+                        <img src="build/img/CertificadoDesarrolloWebCompleto.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -225,8 +223,8 @@
                 </div>
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Certificado google 2.webp" type="image/webp">
-                        <img src="build/img/Certificado google 2.jpg" 
+                        <source srcset="build/img/CertificadoGoogle2.webp" type="image/webp">
+                        <img src="build/img/CertificadoGoogle2.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -235,8 +233,8 @@
                 </div>
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Certificado github.webp" type="image/webp">
-                        <img src="build/img/Certificado github.jpg" 
+                        <source srcset="build/img/CertificadoGithub.webp" type="image/webp">
+                        <img src="build/img/CertificadoGithub.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -245,8 +243,8 @@
                 </div>
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Certificado tiendas virtuales.webp" type="image/webp">
-                        <img src="build/img/Certificado tiendas virtuales.jpg" 
+                        <source srcset="build/img/CertificadoTiendasVirtuales.webp" type="image/webp">
+                        <img src="build/img/CertificadoTiendasVirtuales.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -255,8 +253,8 @@
                 </div>
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Historial academico.webp" type="image/webp">
-                        <img src="build/img/Historial academico.jpg" 
+                        <source srcset="build/img/HistorialAcademico.webp" type="image/webp">
+                        <img src="build/img/HistorialAcademico.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -265,8 +263,8 @@
                 </div>
                 <div class="slide">
                     <picture>
-                        <source srcset="build/img/Certificado plugins wp.webp" type="image/webp">
-                        <img src="build/img/Certificado plugins wp.jpg" 
+                        <source srcset="build/img/CertificadoPluginsWp.webp" type="image/webp">
+                        <img src="build/img/CertificadoPluginsWp.jpg" 
                             alt="imagen certificado" 
                             class="certificado__imagen"
                             onclick="openFullImg2(this.src)"
@@ -302,69 +300,78 @@
                 <h2 class="lista__nombre">Html 5</h2>
                 <img src="build/img/html-1.svg" alt="logo html 5" class="lista__icono">
                 <progress class="barra" value="90" max="100"></progress>
+                <P class="barra-titulo">Avanzado</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">Css 3</h2>
                 <img src="build/img/css-3.svg" alt="logo css3" class="lista__icono">
                 <progress class="barra" value="85" max="100"></progress>
+                <P class="barra-titulo">Avanzado</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">Sass</h2>
                 <img src="build/img/sass-1.svg" alt="logo sass" class="lista__icono">
                 <progress class="barra" value="80" max="100"></progress>
+                <P class="barra-titulo">Avanzado</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">Php</h2>
                 <img src="build/img/php-1.svg" alt="logo php" class="lista__icono">
                 <progress class="barra" value="65" max="100"></progress>
+                <P class="barra-titulo">Intermedio</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">JavaScript</h2>
                 <img src="build/img/javascript-1.svg" alt="logo javascript" class="lista__icono">
-                <progress class="barra" value="55" max="100"></progress>
+                <progress class="barra" value="65" max="100"></progress>
+                <P class="barra-titulo">Intermedio</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">MySql</h2>
                 <img src="build/img/mysql-6.svg" alt="logo mysql" class="lista__icono">
-                <progress class="barra" value="65" max="100"></progress>
+                <progress class="barra" value="40" max="100"></progress>
+                <P class="barra-titulo">Principiante</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">GitHub</h2>
-                <img src="build/img/icons8-github-128.svg" alt="logo github" class="lista__icono">
-                <progress class="barra" value="70" max="100"></progress>
+                <img src="build/img/Github.svg" alt="logo github" class="lista__icono">
+                <progress class="barra" value="55" max="100"></progress>
+                <P class="barra-titulo">Intermedio</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">NodeJs</h2>
                 <img src="build/img/nodejs-icon.svg" alt="logo nodejs" class="lista__icono">
-                <progress class="barra" value="45" max="100"></progress>
+                <progress class="barra" value="35" max="100"></progress>
+                <P class="barra-titulo">Principiante</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">WordPress</h2>
                 <img src="build/img/wordpress-blue.svg" alt="logo wordpress" class="lista__icono">
                 <progress class="barra" value="40" max="100"></progress>
+                <P class="barra-titulo">Principiante</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">WooCommerce</h2>
                 <img src="build/img/woocommerce.svg" alt="logo woocommmerce" class="lista__icono">
                 <progress class="barra" value="35" max="100"></progress>
+                <P class="barra-titulo">Principiante</P>
             </li>
         </ul>
     </div>
 </section>
 
-
-<div class="vector">
-    <svg xmlns="http://www.w3.org/2000/svg" 
-        viewBox="0 0 1440 320"><path 
-        fill="#000" 
-        fill-opacity="0.93" d="M0,64L120,53.3C240,43,480,21,720,16C960,11,1200,21,1320,
-        26.7L1440,32L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
-    </svg>
+<div class="img-full" id="fullImgBox">
+    <img src="build/img/SalonDeBelleza.jpg" alt="imagen proyecto full" id="fullImg">
+    <span onclick="closeImg()">X</span>
 </div>
 
-<div class="img-full" id="fullImgBox">
-    <img src="build/img/01.jpeg" alt="imagen proyecto full" id="fullImg">
-    <span onclick="closeImg()">X</span>
+<div class="vector">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#161a33" fill-opacity="1" d="M0,224L120,186.7C240,149,480,75,720,
+        53.3C960,32,1200,64,1320,80L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,
+        240,0,120,0L0,0Z">
+        </path>
+    </svg>
 </div>
 
 
@@ -385,8 +392,8 @@
                 <div class="proyecto img-gallery hidden">
                     
                     <picture class="proyecto__pic">
-                        <source srcset="build/img/15.webp" type="image/webp">
-                        <img src="build/img/15.jpeg" 
+                        <source srcset="build/img/SalonDeBelleza.webp" type="image/webp">
+                        <img src="build/img/SalonDeBelleza.jpg" 
                             alt="imagen proyecto" 
                             class="proyecto__imagen"
                             onclick="openFullImg(this.src)"
@@ -394,17 +401,28 @@
                     </picture>
                     
                     <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">App Salon</h3>   
+                        <h3 class="proyecto__nombre">¡Salón de Belleza!</h3>   
 
                         <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
+                            Aplicación Web para Administrar un Salón de Belleza, 
+                            con funciones para permitir registrar usuarios, 
+                            validar por medio de correos y así evitar Spam. 
+                            Entre muchas funciones más! 
+                            <span>Tecnologías Usadas:</span>
+                            <ul class="proyecto__lista">
+                                <li><p class="nombre">MVC</p></li>
+                                <li><p class="nombre">PHP</p></li>
+                                <li><p class="nombre">JS</p></li>
+                                <li><p class="nombre">SASS</p></li>
+                                <li><p class="nombre">MySQL</p></li>
+                                <li><p class="nombre">Consumo de Api's</p></li>
+                            </ul>
                         </p>
-                        <a href="https://app-salon-jl.domcloud.io/" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
+                        <a href="https://jujmeqa.domcloud.io/" 
+                            target="new"
+                            class="proyecto__boton"
+                        >
+                            Ver Proyecto
                         </a>
                     </div>
                 </div>
@@ -412,8 +430,8 @@
                 <div class="proyecto img-gallery hidden">
                     
                     <picture class="proyecto__pic">
-                        <source srcset="build/img/01.webp" type="image/webp">
-                        <img src="build/img/01.jpeg" 
+                        <source srcset="build/img/TaskManager.webp" type="image/webp">
+                        <img src="build/img/TaskManager.jpg" 
                             alt="imagen proyecto" 
                             class="proyecto__imagen"
                             onclick="openFullImg(this.src)"
@@ -421,370 +439,28 @@
                     </picture>
                     
                     <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">Arquitectura</h3>   
+                        <h3 class="proyecto__nombre">¡Task Manager!</h3>   
 
                         <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
+                            Aplicación Web para Administrar Proyectos y Tareas, 
+                            con funciones para permitir registrar usuarios, 
+                            validar por medio de correos y así evitar Spam. 
+                            Entre muchas funciones más! 
+                            <span>Tecnologías Usadas:</span>
+                            <ul class="proyecto__lista">
+                                <li><p class="nombre">MVC</p></li>
+                                <li><p class="nombre">PHP</p></li>
+                                <li><p class="nombre">JS</p></li>
+                                <li><p class="nombre">SASS</p></li>
+                                <li><p class="nombre">MySQL</p></li>
+                                <li><p class="nombre">Consumo de Api's</p></li>
+                            </ul>
                         </p>
-                        <a href="https://arquitectura-lm.netlify.app/" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="proyecto img-gallery hidden">
-                    
-                    <picture class="proyecto__pic">
-                        <source srcset="build/img/02.webp" type="image/webp">
-                        <img src="build/img/02.jpeg" 
-                            alt="imagen proyecto" 
-                            class="proyecto__imagen"
-                            onclick="openFullImg(this.src)"
+                        <a href="https://hujdagu.domcloud.io/" 
+                            target="new"
+                            class="proyecto__boton"
                         >
-                    </picture>
-                    
-                    <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">Gym</h3>   
-
-                        <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
-                        </p>
-                        <a href="index.php" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="proyecto img-gallery hidden">
-                    
-                    <picture class="proyecto__pic">
-                        <source srcset="build/img/03.webp" type="image/webp">
-                        <img src="build/img/03.jpeg" 
-                            alt="imagen proyecto" 
-                            class="proyecto__imagen"
-                            onclick="openFullImg(this.src)"
-                        >
-                    </picture>
-                    
-                    <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">Cafeteria</h3>   
-
-                        <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
-                        </p>
-                        <a href="https://cafeteria-lm.netlify.app/" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="proyecto img-gallery hidden">
-                    
-                    <picture class="proyecto__pic">
-                        <source srcset="build/img/04.webp" type="image/webp">
-                        <img src="build/img/04.jpeg" 
-                            alt="imagen proyecto" 
-                            class="proyecto__imagen"
-                            onclick="openFullImg(this.src)"
-                        >
-                    </picture>
-                    
-                    <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">E-Comerce</h3>   
-
-                        <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
-                        </p>
-                        <a href="https://e-comerce-lm.netlify.app/" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="proyecto img-gallery hidden">
-                    
-                    <picture class="proyecto__pic">
-                        <source srcset="build/img/05.webp" type="image/webp">
-                        <img src="build/img/05.jpeg" 
-                            alt="imagen proyecto" 
-                            class="proyecto__imagen"
-                            onclick="openFullImg(this.src)"
-                        >
-                    </picture>
-                    
-
-                    <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">RealState</h3>   
-
-                        <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
-                        </p>
-                        <a href="https://real-state-lm.netlify.app/" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="proyecto img-gallery hidden">
-                    
-                    <picture class="proyecto__pic">
-                        <source srcset="build/img/06.webp" type="image/webp">
-                        <img src="build/img/06.jpeg" 
-                            alt="imagen proyecto" 
-                            class="proyecto__imagen"
-                            onclick="openFullImg(this.src)"
-                        >
-                    </picture>
-                    
-                    <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">WooCommerce</h3>   
-
-                        <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
-                        </p>
-                        <a href="index.php" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="proyecto img-gallery hidden">
-                    
-                    <picture class="proyecto__pic">
-                        <source srcset="build/img/07.webp" type="image/webp">
-                        <img src="build/img/07.jpeg" 
-                            alt="imagen proyecto" 
-                            class="proyecto__imagen"
-                            onclick="openFullImg(this.src)"
-                        >
-                    </picture>
-                    
-                    <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">Carolina Spa</h3>   
-
-                        <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
-                        </p>
-                        <a href="https://carolina-spa-lm.netlify.app/" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="proyecto img-gallery hidden">
-                    
-                    <picture class="proyecto__pic">
-                        <source srcset="build/img/08.webp" type="image/webp">
-                        <img src="build/img/08.jpeg" 
-                            alt="imagen proyecto" 
-                            class="proyecto__imagen"
-                            onclick="openFullImg(this.src)"
-                        >
-                    </picture>
-                    
-                    <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">Tech Pro</h3>   
-
-                        <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
-                        </p>
-                        <a href="https://techpro-lm.netlify.app/" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="proyecto img-gallery hidden">
-                    
-                    <picture class="proyecto__pic">
-                        <source srcset="build/img/09.webp" type="image/webp">
-                        <img src="build/img/09.jpeg" 
-                            alt="imagen proyecto" 
-                            class="proyecto__imagen"
-                            onclick="openFullImg(this.src)"
-                        >
-                    </picture>
-                    
-                    <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">Nucleus Wallet</h3>   
-
-                        <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
-                        </p>
-                        <a href="https://wallet-nucleus-lm.netlify.app/" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="proyecto img-gallery hidden">
-                    
-                    <picture class="proyecto__pic">
-                        <source srcset="build/img/10.webp" type="image/webp">
-                        <img src="build/img/10.jpeg" 
-                            alt="imagen proyecto" 
-                            class="proyecto__imagen"
-                            onclick="openFullImg(this.src)"
-                        >
-                    </picture>
-                    
-                    <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">Meeti</h3>   
-
-                        <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
-                        </p>
-                        <a href="https://meeti-replica-lm.netlify.app/" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="proyecto img-gallery hidden">
-                    
-                    <picture class="proyecto__pic">
-                        <source srcset="build/img/11.webp" type="image/webp">
-                        <img src="build/img/11.jpeg" 
-                            alt="imagen proyecto" 
-                            class="proyecto__imagen"
-                            onclick="openFullImg(this.src)"
-                        >
-                    </picture>
-                    
-                    <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">Podcast App</h3>   
-
-                        <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
-                        </p>
-                        <a href="https://podcast-app-lm.netlify.app/" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="proyecto img-gallery hidden">
-                    
-                    <picture class="proyecto__pic">
-                        <source srcset="build/img/12.webp" type="image/webp">
-                        <img src="build/img/12.jpeg" 
-                            alt="imagen proyecto" 
-                            class="proyecto__imagen"
-                            onclick="openFullImg(this.src)"
-                        >
-                    </picture>
-                    
-                    <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">Airbnb</h3>   
-
-                        <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
-                        </p>
-                        <a href="https://airbnb-replica-lm.netlify.app/" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="proyecto img-gallery hidden">
-                    
-                    <picture class="proyecto__pic">
-                        <source srcset="build/img/13.webp" type="image/webp">
-                        <img src="build/img/13.jpeg" 
-                            alt="imagen proyecto" 
-                            class="proyecto__imagen"
-                            onclick="openFullImg(this.src)"
-                        >
-                    </picture>
-                    
-                    <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">Escuela Cocina</h3>   
-
-                        <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
-                        </p>
-                        <a href="https://escuela-cocina-lm.netlify.app/" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="proyecto img-gallery hidden">
-                    
-                    <picture class="proyecto__pic">
-                        <source srcset="build/img/14.webp" type="image/webp">
-                        <img src="build/img/14.jpeg" 
-                            alt="imagen proyecto" 
-                            class="proyecto__imagen"
-                            onclick="openFullImg(this.src)"
-                        >
-                    </picture>
-                    
-                    <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">Delivery App</h3>   
-
-                        <p class="proyecto__descripcion">
-                            Estos proyectos son de cursos que he tomado en los cuales he 
-                            implementado Responsive Web Design siguiendo buenas prácticas 
-                            y con las tecnologías: <span>HTML5, CSS3, JS, WordPress, WooCommerce, 
-                            MySql, PHP</span>  y los muestro solo para generar contenido, en un futuro 
-                            implementare nuevos proyectos personales.
-                        </p>
-                        
-                        <a href="https://delivery-app-lm.netlify.app/" target="new">
-                            <button class="proyecto__boton">Ver Proyecto</button>
+                            Ver Proyecto
                         </a>
                     </div>
                 </div>
