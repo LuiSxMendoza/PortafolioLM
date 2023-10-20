@@ -299,61 +299,81 @@
             <li class="lista hidden">
                 <h2 class="lista__nombre">Html 5</h2>
                 <img src="build/img/html-1.svg" alt="logo html 5" class="lista__icono">
-                <progress class="barra" value="90" max="100"></progress>
+                <div class="barra">
+                    <div class="progreso" style="--w:90%"></div>
+                </div>
                 <P class="barra-titulo">Avanzado</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">Css 3</h2>
                 <img src="build/img/css-3.svg" alt="logo css3" class="lista__icono">
-                <progress class="barra" value="85" max="100"></progress>
+                <div class="barra">
+                    <div class="progreso" style="--w:85%"></div>
+                </div>
                 <P class="barra-titulo">Avanzado</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">Sass</h2>
                 <img src="build/img/sass-1.svg" alt="logo sass" class="lista__icono">
-                <progress class="barra" value="80" max="100"></progress>
+                <div class="barra">
+                    <div class="progreso" style="--w:80%"></div>
+                </div>
                 <P class="barra-titulo">Avanzado</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">Php</h2>
                 <img src="build/img/php-1.svg" alt="logo php" class="lista__icono">
-                <progress class="barra" value="65" max="100"></progress>
+                <div class="barra">
+                    <div class="progreso" style="--w:65%"></div>
+                </div>
                 <P class="barra-titulo">Intermedio</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">JavaScript</h2>
                 <img src="build/img/javascript-1.svg" alt="logo javascript" class="lista__icono">
-                <progress class="barra" value="65" max="100"></progress>
+                <div class="barra">
+                    <div class="progreso" style="--w:65%"></div>
+                </div>
                 <P class="barra-titulo">Intermedio</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">MySql</h2>
                 <img src="build/img/mysql-6.svg" alt="logo mysql" class="lista__icono">
-                <progress class="barra" value="40" max="100"></progress>
+                <div class="barra">
+                    <div class="progreso" style="--w:40%"></div>
+                </div>
                 <P class="barra-titulo">Principiante</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">GitHub</h2>
                 <img src="build/img/Github.svg" alt="logo github" class="lista__icono">
-                <progress class="barra" value="55" max="100"></progress>
+                <div class="barra">
+                    <div class="progreso" style="--w:55%"></div>
+                </div>
                 <P class="barra-titulo">Intermedio</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">NodeJs</h2>
                 <img src="build/img/nodejs-icon.svg" alt="logo nodejs" class="lista__icono">
-                <progress class="barra" value="35" max="100"></progress>
+                <div class="barra">
+                    <div class="progreso" style="--w:35%"></div>
+                </div>
                 <P class="barra-titulo">Principiante</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">WordPress</h2>
                 <img src="build/img/wordpress-blue.svg" alt="logo wordpress" class="lista__icono">
-                <progress class="barra" value="40" max="100"></progress>
+                <div class="barra">
+                    <div class="progreso" style="--w:40%"></div>
+                </div>
                 <P class="barra-titulo">Principiante</P>
             </li>
             <li class="lista hidden">
                 <h2 class="lista__nombre">WooCommerce</h2>
                 <img src="build/img/woocommerce.svg" alt="logo woocommmerce" class="lista__icono">
-                <progress class="barra" value="35" max="100"></progress>
+                <div class="barra">
+                    <div class="progreso" style="--w:35%"></div>
+                </div>
                 <P class="barra-titulo">Principiante</P>
             </li>
         </ul>
@@ -418,7 +438,7 @@
                                 <li><p class="nombre">Consumo de Api's</p></li>
                             </ul>
                         </p>
-                        <a href="https://jujmeqa.domcloud.io/" 
+                        <a href="https://quhtesu.domcloud.io/" 
                             target="new"
                             class="proyecto__boton"
                         >
@@ -456,7 +476,7 @@
                                 <li><p class="nombre">Consumo de Api's</p></li>
                             </ul>
                         </p>
-                        <a href="https://hujdagu.domcloud.io/" 
+                        <a href="http://yutyize.domcloud.io/" 
                             target="new"
                             class="proyecto__boton"
                         >

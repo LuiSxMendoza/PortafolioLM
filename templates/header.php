@@ -10,7 +10,6 @@
 
     <title>Portafolio | <?php echo $titulo ?? ''; ?></title>
 
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
@@ -33,7 +32,7 @@
     
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-
+    
     <link rel="icon" href="build/img/Recurso4x.png">
 
 </head>
