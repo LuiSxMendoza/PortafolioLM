@@ -407,13 +407,29 @@
 
         <h2 class="proyectos__titulo hidden">¡Algunós de Mis Proyectos!</h2>
 
+        <!--
+            <div class="mantenimiento">
+                <div class="mantenimiento__img">
+                    <img src="build/img/tecnico.png" alt="Imagen Mantenimiento">
+                </div>
+                <div class="mantenimiento__info">
+                    <p>
+                        404 NOT FOUND <br>
+                        ESTAMOS ACTUALIZANDO ESTA SECCIÓN PARA VOLVER A ESTAR EN LINEA, LAMENTO LOS
+                        INCONVENIENTES! <br>
+                        -LM :D
+                    </p>
+                </div>
+            </div>
+        -->
+        
         <div class="proyectos__galeria">
             <div class="proyectos__grid ">
                 <div class="proyecto img-gallery hidden">
                     
                     <picture class="proyecto__pic">
-                        <source srcset="build/img/SalonDeBelleza.webp" type="image/webp">
-                        <img src="build/img/SalonDeBelleza.jpg" 
+                        <source srcset="build/img/salon-belleza.webp" type="image/webp">
+                        <img src="build/img/salon-belleza.jpg" 
                             alt="imagen proyecto" 
                             class="proyecto__imagen"
                             onclick="openFullImg(this.src)"
@@ -421,7 +437,7 @@
                     </picture>
                     
                     <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">¡Salón de Belleza!</h3>   
+                        <h3 class="proyecto__nombre">¡Beauty Salón!</h3>   
 
                         <p class="proyecto__descripcion">
                             Aplicación Web para Administrar un Salón de Belleza, 
@@ -438,45 +454,7 @@
                                 <li><p class="nombre">Consumo de Api's</p></li>
                             </ul>
                         </p>
-                        <a href="https://quhtesu.domcloud.io/" 
-                            target="new"
-                            class="proyecto__boton"
-                        >
-                            Ver Proyecto
-                        </a>
-                    </div>
-                </div>
-
-                <div class="proyecto img-gallery hidden">
-                    
-                    <picture class="proyecto__pic">
-                        <source srcset="build/img/TaskManager.webp" type="image/webp">
-                        <img src="build/img/TaskManager.jpg" 
-                            alt="imagen proyecto" 
-                            class="proyecto__imagen"
-                            onclick="openFullImg(this.src)"
-                        >
-                    </picture>
-                    
-                    <div class="proyecto__info">
-                        <h3 class="proyecto__nombre">¡Task Manager!</h3>   
-
-                        <p class="proyecto__descripcion">
-                            Aplicación Web para Administrar Proyectos y Tareas, 
-                            con funciones para permitir registrar usuarios, 
-                            validar por medio de correos y así evitar Spam. 
-                            Entre muchas funciones más! 
-                            <span>Tecnologías Usadas:</span>
-                            <ul class="proyecto__lista">
-                                <li><p class="nombre">MVC</p></li>
-                                <li><p class="nombre">PHP</p></li>
-                                <li><p class="nombre">JS</p></li>
-                                <li><p class="nombre">SASS</p></li>
-                                <li><p class="nombre">MySQL</p></li>
-                                <li><p class="nombre">Consumo de Api's</p></li>
-                            </ul>
-                        </p>
-                        <a href="http://yutyize.domcloud.io/" 
+                        <a href="https://app1demolxm.domcloud.dev" 
                             target="new"
                             class="proyecto__boton"
                         >
@@ -487,6 +465,14 @@
 
             </div>
         </div>
+
+        <div class="info">
+            <p class="msj">
+                Aún se estan actualizando los proyectos, conforme se finalicen
+                se podran visualizar, gracias por su paciencia! -LM
+            </p>
+        </div>
+
     </div>
 </section>
 

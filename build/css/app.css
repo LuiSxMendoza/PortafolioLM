@@ -1330,6 +1330,26 @@ p {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+.proyectos .mantenimiento {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+@media (min-width: 768px) {
+  .proyectos .mantenimiento__info p {
+    font-size: 3rem;
+    line-height: 1.4;
+  }
+}
+.proyectos .info p {
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-size: 2.5rem;
+  font-weight: 900;
+}
 
 .proyecto {
   margin-bottom: 5rem;
